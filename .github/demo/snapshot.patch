@@ -1,0 +1,47 @@
+diff --git a/examples/pom.xml b/examples/pom.xml
+index 465f9958c9f..e1f550a3cfc 100644
+--- a/examples/pom.xml
++++ b/examples/pom.xml
+@@ -5,7 +5,7 @@
+ 
+   <groupId>com.google.genai.examples</groupId>
+   <artifactId>google-genai-examples</artifactId>
+-  <version>1.77.0</version><!-- {x-version-update:google-genai:current} -->
++  <version>1.78.0-SNAPSHOT</version><!-- {x-version-update:google-genai:current} -->
+   <name>google-genai-examples</name>
+ 
+   <properties>
+@@ -13,7 +13,7 @@
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+     <!-- {x-version-update-start:google-genai:current} -->
+-    <google-genai.version>1.77.0</google-genai.version>
++    <google-genai.version>1.78.0-SNAPSHOT</google-genai.version>
+     <!-- {x-version-update-end} -->
+   </properties>
+   <build>
+diff --git a/pom.xml b/pom.xml
+index 55ff6ed667d..676525f9c33 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -6,7 +6,7 @@
+   <groupId>com.google.genai</groupId>
+   <artifactId>google-genai</artifactId>
+   <name>google-genai</name>
+-  <version>1.77.0</version><!-- {x-version-update:google-genai:current} -->
++  <version>1.78.0-SNAPSHOT</version><!-- {x-version-update:google-genai:current} -->
+   <packaging>jar</packaging>
+   <description>
+     Java idiomatic SDK for the Gemini Developer APIs and Vertex AI APIs.
+diff --git a/versions.txt b/versions.txt
+index fb038032673..639e35f007c 100644
+--- a/versions.txt
++++ b/versions.txt
+@@ -1,4 +1,4 @@
+ # Format:
+ # module:released-version:current-version
+ 
+-google-genai:1.77.0:1.77.0
+\ No newline at end of file
++google-genai:1.77.0:1.78.0-SNAPSHOT
+\ No newline at end of file
